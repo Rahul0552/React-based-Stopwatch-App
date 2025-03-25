@@ -1,0 +1,215 @@
+/* src/App.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #000000 !important;
+    margin: 0;
+    padding: 0;
+}
+App{
+    border: #c82333 solid 5px;
+    
+}
+body:hover{
+    color: aliceblue;
+    background: #0dd2cb !important;
+    color: #0dd2cb;
+}
+.containerglass:hover{
+    /* background: #0dd2cb !important; */
+    background: #00000025 !important;
+    color: #000000;
+}
+
+.cardBody:hover{
+    background: #fbff00 !important;
+    transition: background-color 0.3s, transform 0.3s; 
+    /* border: #c82333 solid 5px; */
+}
+.cardBody:hover{
+    background: #222322 !important;
+    border-radius: 8px;
+    
+    /* background: #ff0000 !important; */
+    /* border: #c82333 solid 5px; */
+}
+.container:hover{
+    color: #fef9f9;
+    background: #fbff00 !important;
+    /* background: #ff0000 !important; */
+    /* border: #c82333 solid 5px; */
+}
+.container {
+    /* border: #c82333 solid 5px; */
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-image: url('../images/stop.png');
+    background-repeat: no-repeat;
+    background-position: top-left;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.333);
+}
+.containerglass{
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background: #00000080;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    padding: 10px 0px;
+}
+
+.stoptext{
+    padding: 10px;   
+    margin-left: 550px;
+}
+ul{
+    margin-left: 570px;
+    
+}
+
+.stopwatch {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titleButton{
+    /* border: #c82333 solid 5px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 170px;
+    
+}
+.titleBody{
+    background-color: #baf6055a !important;
+    /* border: #c82333 solid 1px; */
+    margin-left: 350px;
+    border-radius: 30px;
+    padding: 15px;
+    
+}
+
+.cardtimer{
+    /* font-style: 300px !important; */
+    /* margin-bottom: 170px; */
+    font-weight: bold;
+    text-align: center;
+    /* padding: 0;margin: 0; */
+}
+
+.btns{
+    margin-bottom: 20px;
+}
+
+
+
+.button {
+    padding: 7px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s; /* Animation for background color and transform */
+    font-size: 16px; /* Font size for buttons */
+}
+
+/* .button.start {
+    background-color: #28a745;
+}
+
+.button.start:hover {
+    background-color: #218838; 
+    transform: scale(1.1); 
+} */
+
+/* .button.stop {
+    background-color: #dc3545;
+}
+
+.button.stop:hover {
+    background-color: #c82333; 
+    transform: scale(1.1); 
+} */
+
+/* .button.reset {
+    background-color: #007bff;
+}
+
+.button.reset:hover {
+    
+    background-color: #0056b3; 
+    transform: scale(1.1); 
+} */
+
+.button.reset {background-image: linear-gradient(to right, #004FF9 0%, #FFF94C  51%, #004FF9  100%)}
+.button.reset {
+    padding: 7px 20px;
+    margin: 10px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eeeeeea9;
+   border-radius: 10px;
+   /* display: block; */
+ }
+
+ .button.reset:hover {
+   background-position: right center; 
+   color: #fff;
+   text-decoration: none;
+ }
+
+ 
+ .button.start {background-image: linear-gradient(to right, #0e6446 0%, #93F9B9  51%, #1D976C  100%)}
+ .button.start {
+    margin: 10px;
+    padding: 7px 20px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eeeeeea9;
+    border-radius: 10px;
+    /* display: block; */
+  }
+
+  .button.start:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+
+  
+  .button.stop {background-image: linear-gradient(to right, #d12411 0%, #ffc500  51%, #c21500  100%)}
+  .button.stop {
+     margin: 10px;
+     padding: 7px 20px;
+     text-align: center;
+     text-transform: uppercase;
+     transition: 0.5s;
+     background-size: 200% auto;
+     color: white;            
+     box-shadow: 0 0 20px #eeeeeea9;
+     border-radius: 10px;
+     /* display: block; */
+   }
+
+   .button.stop:hover {
+     background-position: right center; /* change the direction of the change here */
+     color: #fff;
+     text-decoration: none;
+   }
+  
+   
+
+   
+ 
